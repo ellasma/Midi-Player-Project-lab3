@@ -30,5 +30,8 @@ public class TuneCreator
         // put your code here
         SimpleTune tune = new SimpleTune();
         tune.addNote("C",8);
+        tune.addNote("D",8);
+        tune.addNote("E",8);
+        player.playTune(tune);
     }
 }
