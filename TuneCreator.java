@@ -28,6 +28,7 @@ public class TuneCreator
     public void CreateAndPlay()
     {
         // put your code here
-        
+        SimpleTune tune = new SimpleTune();
+        tune.addNote("C",8);
     }
 }
